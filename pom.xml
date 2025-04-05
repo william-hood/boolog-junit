@@ -9,8 +9,8 @@
     <version>3.1.0</version>
 
     <name>Boolog for JUnit</name>
-    <description>A direct-to-HTML logging system that better visualizes data structures and exceptions, organizes subsections, and offers a better overall presentation to anyone reading or interpreting the log.
-        This is a wrapper for the Kotlin version of Boolog that allows its use as if it were native Java avoiding the usual issues of using compiled Kotlin directly in a Java program.</description>
+    <description>Boolog is a direct-to-HTML logging system that better visualizes data structures and exceptions, organizes subsections, and offers a better overall presentation to anyone reading or interpreting the log.
+        This is a wrapper that provides for using Boolog in Java for JUnit.</description>
     <url>https://github.com/william-hood/boolog-junit</url>
 
     <properties>

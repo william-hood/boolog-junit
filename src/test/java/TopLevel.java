@@ -10,7 +10,7 @@ public class TopLevel extends JUnitBoolog {
     private static File outputFile = new File(homeFolder + File.separator + "Documents" + File.separator + "Test Results" + File.separator + TEST_SUITE_NAME + ".html");
 	
 	private TopLevel() throws FileNotFoundException {
-		super(TEST_SUITE_NAME, new PrintWriter(System.out), new PrintWriter(outputFile), THEME_CLASSIC);
+		super(TEST_SUITE_NAME, new PrintWriter(System.out), new PrintWriter(outputFile), THEME_DEFAULT);
 	}
 	
 	public static TopLevel Log;

@@ -1,6 +1,5 @@
 ##### Release 3.1
-# BOOLOG
-### (Wrapped for Java)
+# BOOLOG for JUnit Testing
 
 <hr>
 
@@ -19,15 +18,17 @@ visualize what goes on with back-end processes, such as a cloud service or a tes
 (Boolog is the "spiritual" successor of an automated test logger project created at one of the author's previous places of employment.)
 
 
-Boolog for Java is a wrapper for the Kotlin version that allows its use as if it were native Java avoiding the usual issues of using compiled Kotlin directly in a Java program.
+Boolog for JUnit provides for proper use of the Boolog logging system via the JUnit Test Framework in Java.
 
-### To use Boolog in your Java project, update `pom.xml` by including the dependency as shown in the Maven Central Repository: https://central.sonatype.com/artifact/io.github.william-hood/boolog-java
+### To use Boolog in your JUnit test project, update `pom.xml` by including the dependency as shown in the Maven Central Repository: https://central.sonatype.com/artifact/io.github.william-hood/boolog-junit
 
 ---
 ## Example Code
 For usage, refer to this example program and the JavaDoc comments.
 
-[Example Program](src/test/java/BoologJavaExample.java) (See also the [TestStruct](src/test/java/TestStruct.java) it uses.)
+[Top Level Log Management Class](src/test/java/TopLevel.java)
+[Template / Example Test Script 1](src/test/java/JUnit_Boolog_Example_Template.java)
+[Example Test Script 2](src/test/java/More_Interesting_Test_Example.java)
 
 ## Supported Themes
 
