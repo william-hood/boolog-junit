@@ -27,7 +27,9 @@ Boolog for JUnit provides for proper use of the Boolog logging system via the JU
 For usage, refer to this example program and the JavaDoc comments.
 
 [Top Level Log Management Class](src/test/java/TopLevel.java)
+
 [Template / Example Test Script 1](src/test/java/JUnit_Boolog_Example_Template.java)
+
 [Example Test Script 2](src/test/java/More_Interesting_Test_Example.java)
 
 ## Supported Themes
