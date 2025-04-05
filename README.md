@@ -26,11 +26,13 @@ Boolog for JUnit provides for proper use of the Boolog logging system via the JU
 ## Example Code
 For usage, refer to this example program and the JavaDoc comments.
 
-[Top Level Log Management Class](src/test/java/TopLevel.java)
+[Top Level Log Management Class](src/test/java/TopLevel.java) - You should copy this file into your JUnit test project.
 
 [Template / Example Test Script 1](src/test/java/JUnit_Boolog_Example_Template.java)
 
 [Example Test Script 2](src/test/java/More_Interesting_Test_Example.java)
+
+By default, logs will be written to `(home)/Documents/Test Results/File Name.html`. Configure this in `TopLevel.java` with the `outputFile` variable.
 
 ## Supported Themes
 
