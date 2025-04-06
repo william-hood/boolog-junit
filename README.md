@@ -1,8 +1,6 @@
 ##### Release 3.1
 # BOOLOG for JUnit Testing
 
-<hr>
-
 *Java version [here](https://github.com/william-hood/boolog-java)*
 
 *Kotlin version [here](https://github.com/william-hood/boolog-kotlin)*
